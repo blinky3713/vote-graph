@@ -9,3 +9,4 @@
 /.psa*
 /purescript/
 /psc-package/
+/dist/main.js*
