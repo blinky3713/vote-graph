@@ -11,13 +11,14 @@ import Halogen.Aff as HA
 import Halogen.VDom.Driver (runUI)
 import Partial.Unsafe (unsafeCrashWith)
 import Web.DOM.ParentNode (QuerySelector(..))
+import Graph.ForceGraph (plot)
 
 main :: Effect Unit
-main = C.log "hello" *> HA.runHalogenAff do
+main = C.log "hell" *> HA.runHalogenAff do
     mappElem <- HA.selectElement $ QuerySelector "#app"
     case mappElem of
       Nothing -> unsafeCrashWith "div#app has to be defined"
       Just appElem -> do
-        liftEffect $ C.log "bye"
+        liftEffect plot
         runUI B.myButton unit appElem
 

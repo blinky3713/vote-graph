@@ -5,6 +5,7 @@
   "depends": [
     "console",
     "halogen",
-    "prelude"
+    "prelude",
+    "psci-support"
   ]
 }
