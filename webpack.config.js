@@ -1,5 +1,4 @@
 const path = require('path');
-console.log(path);
 
 module.exports = {
   mode: 'development',
@@ -37,5 +36,3 @@ module.exports = {
       ]
   },
 };
-
-console.log(module.exports);

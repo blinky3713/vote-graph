@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "webpack": "webpack --config webpack.config.js",
+    "build": "psc-package build",
     "start:dev": "webpack-dev-server"
   },
   "devDependencies": {
@@ -16,6 +17,5 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
-    "lodash": "^4.17.11"
   }
 }
