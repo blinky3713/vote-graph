@@ -1,11 +1,12 @@
 {
   "name": "vote-graph",
-  "set": "psc-0.12.1",
-  "source": "https://github.com/purescript/package-sets.git",
+  "set": "quickserve",
+  "source": "https://github.com/blinky3713/package-sets.git",
   "depends": [
     "console",
     "halogen",
     "prelude",
-    "psci-support"
+    "psci-support",
+    "quickserve"
   ]
 }

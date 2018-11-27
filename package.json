@@ -4,7 +4,8 @@
   "scripts": {
     "webpack": "webpack --config webpack.config.js",
     "build": "psc-package build",
-    "start:dev": "webpack-dev-server"
+    "start:dev": "webpack-dev-server",
+    "start:server": "node -e 'require(\"./output/Server.Main/index.js\").main()'"
   },
   "devDependencies": {
     "bower": "^1.8.2",
